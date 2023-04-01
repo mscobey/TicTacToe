@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    display:grid;
+    grid-auto-rows: 90px;
+    grid-template-columns: 90px 90px 90px;
+    margin-top:100px;
+}
+#s0{
+    grid-area: 1/1/2/2;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+#s1{
+    grid-area:1/2/2/3;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#s2{
+    grid-area: 1/3/2/4;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#s3{
+    grid-area: 2/1/3/2;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#s4{
+    grid-area: 2/2/3/3;
+    border: 2px solid black;
+}
+#s5{
+    grid-area: 2/3/3/4;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#s6{
+    grid-area: 3/1/4/2;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+#s7{
+    grid-area: 3/2/4/3;
+    border-left: 2px solid black;
+    border-top:2px solid black;
+    border-right: 2px solid black;
+}
+#s8{
+    grid-area: 3/3/4/4;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+.box{
+    display:grid;
+    place-items:center;
+}
+#players{
+    margin-top: 50px;
+}
+.header{
+    margin-top: 200px;
+}
